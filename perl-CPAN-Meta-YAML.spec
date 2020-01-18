@@ -3,7 +3,7 @@
 
 Name:		perl-CPAN-Meta-YAML
 Version:	0.008
-Release:	13%{?dist}
+Release:	14%{?dist}
 Summary:	Read and write a subset of YAML for CPAN Meta files
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -82,6 +82,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/CPAN::Meta::YAML.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.008-14
+- Mass rebuild 2013-12-27
+
 * Tue Nov 13 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.008-13
 - Update dependencies
 
